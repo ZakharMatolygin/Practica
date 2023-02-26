@@ -20,29 +20,17 @@ public class Fern extends Herbs{
 
     }
 
-    public String getReproduction() {
-        return reproduction;
-    }
+    public String getReproduction() { return reproduction; }
 
-    public int getNumberOfStems() {
-        return numberOfStems;
-    }
+    public int getNumberOfStems() { return numberOfStems; }
 
-    public String getRelationToTheSoil() {
-        return relationToTheSoil;
-    }
+    public String getRelationToTheSoil() { return relationToTheSoil; }
 
-    public void setReproduction(String reproduction) {
-        this.reproduction = reproduction;
-    }
+    public void setReproduction(String reproduction) { this.reproduction = reproduction; }
 
-    public void setNumberOfStems(int numberOfStems) {
-        this.numberOfStems = numberOfStems;
-    }
+    public void setNumberOfStems(int numberOfStems) { this.numberOfStems = numberOfStems; }
 
-    public void setRelationToTheSoil(String relationToTheSoil) {
-        this.relationToTheSoil = relationToTheSoil;
-    }
+    public void setRelationToTheSoil(String relationToTheSoil) { this.relationToTheSoil = relationToTheSoil; }
     public String toString(){
         return "Fern { size = "+this.getSize()+", color = "+this.getColor()+", haveFruits = "+this.isHaveFruits()+
                 ", isBlooming = "+this.isBlooming()+ ", age = "+this.getAge()+", flower = "+this.isFlower()+

@@ -46,7 +46,7 @@ public class Plant {
     }
 
     public static void main(String[] args) {
-        System.out.println("Praactical №1.2. Variant 4. Matolygin Z.I. Group RIBO-03-21 ");
+        System.out.println(" (Practical №1.4) Variant 4. Group RIBO-03-21. Matolygin Z.I. ");
         System.out.println("           Plant               ");
         System.out.println("          /     \\             ");
         System.out.println("       1)Tree  2)Herbs         ");
