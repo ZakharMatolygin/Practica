@@ -1,10 +1,18 @@
 package Practica1_4;
 
-public class Herbs extends Plant{
+public class Herbs extends Plant {
     int age;
     boolean flower;
     boolean spices;
-    boolean solid;
+    boolean spikes;
+
+    public boolean isSpikes() {
+        return spikes;
+    }
+
+    public void setSpikes(boolean spikes) {
+        this.spikes = spikes;
+    }
 
     public boolean isFlower() {
         return this.flower;
@@ -18,10 +26,6 @@ public class Herbs extends Plant{
         return this.spices;
     }
 
-    public boolean isSolid() {
-        return this.solid;
-    }
-
     public void setAge(int age) {
         this.age = age;
     }
@@ -30,14 +34,14 @@ public class Herbs extends Plant{
         this.flower = flower;
     }
 
-    public void setSolid(boolean solid) {
-        this.solid = solid;
-    }
-
     public void setSpices(boolean spices) {
         this.spices = spices;
     }
-    public String toString(){
-        return "Herbs { age = "+this.getAge()+" flower = "+this.isFlower()+" spices = "+this.isSpices()+" solid = "+this.isSolid()+" }";
+
+    public String toString() {
+        return "Herbs { size = "+this.getSize()+" color = "+this.getColor()+" haveFruits = "+this.isHaveFruits()+
+                " isBlooming = "+this.isBlooming()+"age = "+this.getAge()+" flower = "+this.isFlower()+
+                " spices = "+this.isSpices()+" spikes = "+isSpikes()+" }";
+
     }
 }

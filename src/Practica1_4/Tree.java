@@ -30,7 +30,9 @@ public class Tree extends Plant {
     }
 
     public String toString(){
-        return "Tree { kindOfLeaves = "+this.getKindOfLeaves()+" diameter = "+this.getDiameter()+" density = "+this.getDensity()+" }";
+        return "Tree { size = "+this.getSize()+" color = "+ this.getColor()+" haveFruits = "+this.isHaveFruits()+
+                " isBlooming = "+this.isBlooming()+" kindOfLeaves = "+this.getKindOfLeaves()+
+                " diameter = "+this.getDiameter()+" density = "+this.getDensity()+" }";
     }
 
 }
